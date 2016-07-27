@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Settings">
+        <ListPreference android:entries="@array/pref_SlotStrings" android:title="@string/pref_SlotTitle" android:key="pref_Slot" android:defaultValue="@string/pref_DefaultSlot" android:dialogTitle="@string/pref_SlotDialogTitle" android:entryValues="@array/pref_SlotNumbers" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@xml/about" android:title="About" />
+</PreferenceScreen>
