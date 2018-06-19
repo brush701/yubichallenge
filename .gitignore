@@ -1,0 +1,13 @@
+app/build/**
+.gradle/**
+.idea/**
+local.properties
+*.bat
+gradlew
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+build/intermediates/dex-cache/cache.xml
+build.gradle
+build.gradle
+app/app.iml
+app/src/main/res/values/strings.xml
