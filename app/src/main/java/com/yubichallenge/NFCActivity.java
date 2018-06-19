@@ -96,6 +96,7 @@ public class NFCActivity extends Activity {
 			IsoDep isoTag = IsoDep.get(tag);
 			try {
 				isoTag.connect();
+				isoTag.setTimeout(30000);
 				byte[] resp = isoTag.transceive(selectCommand);
 				int length = resp.length;
 				if (resp[length - 2] == (byte) 0x90 && resp[length - 1] == 0x00)
