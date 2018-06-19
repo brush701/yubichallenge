@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">YubiChallengeLA</string>
+    <string name="app_name">YubiChallenge</string>
     <string name="info">This app provides a simple interface for using the NFC challenge-response functionality built into a Yubikey Neo. It will be started by a 3rd party app such as keepass2android when necessary. It is provided as a standalone app so that the majority of users who do not own a Yubikey do not have to grant NFC permissions unnecessarily.</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_nfc">NFC Challenge-Response</string>
